@@ -4,5 +4,6 @@ def oxford_comma(array)
     return new_string
   elsif array.length > 2
     brand_new = array.join(", ")
+    return brand_new
   end
 end
